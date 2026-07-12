@@ -964,5 +964,28 @@
         "name": "GetZoom"
       }
     ]
+  },
+  {
+    "groupName": "TaxiApp",
+    "metadata": {
+      "title": "Taxi App (Nogales)"
+    },
+    "examples": [
+      {
+        "metadata": {
+          "title": "Taxi en vivo (Nogales)",
+          "tags": [
+            "ModelLayer",
+            "Models",
+            "LineLayer",
+            "Camera"
+          ],
+          "docs": "\nCustomer view of a taxi ride in Nogales, Sonora: a 3D taxi drives to the\ncustomer's pickup location along a route fetched from the Mapbox Directions\nAPI (with an offline fallback), showing the remaining time and distance and a\nprogress line; once picked up, the trip to the destination is tracked the same\nway. The simulated location provider can be swapped for real driver positions\nstreamed from a backend — see taxiLocationProvider.ts.\n"
+        },
+        "fullPath": "example/src/examples/TaxiApp/TaxiTrackingApp.tsx",
+        "relPath": "TaxiApp/TaxiTrackingApp.tsx",
+        "name": "TaxiTrackingApp"
+      }
+    ]
   }
 ]

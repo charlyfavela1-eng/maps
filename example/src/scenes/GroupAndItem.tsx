@@ -28,6 +28,8 @@ import * as LineLayer from '../examples/LineLayer';
 import * as Map from '../examples/Map';
 // SYMBOLCIRCLELAYER
 import * as SymbolCircleLayer from '../examples/SymbolCircleLayer';
+// TAXI APP
+import * as TaxiApp from '../examples/TaxiApp';
 // USERLOCATION
 import * as UserLocation from '../examples/UserLocation';
 // WEB
@@ -296,6 +298,7 @@ const Examples = new ExampleGroup('React Native Mapbox', [
     example(RasterParticle),
     example(SnowAndRain),
   ]),
+  exampleGroup(TaxiApp),
   exampleGroup(Map),
   exampleGroup(Camera),
   exampleGroup(UserLocation),

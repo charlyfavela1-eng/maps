@@ -13,6 +13,7 @@ import * as Annotations from '../src/examples/Annotations';
 import * as FillRasterLayer from '../src/examples/FillRasterLayer';
 import * as LineLayer from '../src/examples/LineLayer';
 import * as Camera from '../src/examples/Camera';
+import * as TaxiApp from '../src/examples/TaxiApp';
 import type {
   Examples,
   Example,
@@ -40,6 +41,7 @@ const allTests = {
   FillRasterLayer,
   LineLayer,
   Camera,
+  TaxiApp,
 } as const;
 
 const relExamplesPath = path.join('example', 'src', 'examples');
